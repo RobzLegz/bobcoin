@@ -2,9 +2,9 @@
 #include <ctime>
 #include <vector>
 
+#include "Block.cpp"
+#include "Blockchain.cpp"
 #include "include/TransactionData.h"
-#include "include/Block.h"
-#include "include/Blockchain.h"
 
 using namespace std;
 
