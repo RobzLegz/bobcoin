@@ -3,8 +3,7 @@
 
 #include <string>
 
-struct TransactionData
-{
+struct TransactionData {
     double amount;
     std::string senderKey;
     std::string receiverKey;
@@ -12,8 +11,7 @@ struct TransactionData
     
     TransactionData(){};
     
-    TransactionData(double amt, std::string sender, std::string receiver, time_t time)
-    {
+    TransactionData(double amt, std::string sender, std::string receiver, time_t time) {
         amount = amt;
         senderKey = sender;
         receiverKey = receiver;
